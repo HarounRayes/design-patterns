@@ -9,7 +9,6 @@ void main() {
   print(g2.name);
   print(g2.damage);
   print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-
   g2.setDamage(22);
   print(g2.name);
   print(g2.damage);
