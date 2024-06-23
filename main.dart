@@ -24,6 +24,5 @@ Future<void> main() async {
   final result = await receivePort.first;
   print('Result from isolate: $result');
 
-  // Close the receive port
   receivePort.close();
 }
