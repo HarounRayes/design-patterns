@@ -11,7 +11,6 @@ void computeTask(SendPort sendPort) {
 
   // Send the result back to the main isolate
   sendPort.send(result);
-  sendPort.send(result);
 }
 
 Future<void> main() async {
