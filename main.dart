@@ -13,8 +13,6 @@ void computeTask(SendPort sendPort) {
   sendPort.send(result);
 }
 
-
-
 Future<void> main() async {
   // ReceivePort is used to receive messages from the isolate
   final receivePort = ReceivePort();
