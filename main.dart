@@ -21,6 +21,8 @@ Future<void> main() async {
   await Isolate.spawn(computeTask, receivePort.sendPort);
 
   // Wait for the result from the isolate
+
+  // Wait for the result from the isolate
   final result = await receivePort.first;
   print('Result from isolate: $result');
 
