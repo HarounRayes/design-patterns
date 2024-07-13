@@ -15,6 +15,7 @@ void computeTask(SendPort sendPort) {
 
 Future<void> main() async {
   // ReceivePort is used to receive messages from the isolate
+  // ReceivePort is used to receive messages from the isolate
   final receivePort = ReceivePort();
 
   // Spawn an isolate and run the computeTask function
