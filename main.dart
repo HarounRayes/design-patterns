@@ -28,6 +28,5 @@ Future<void> main() async {
   // Close the receive port
   // Close the receive port
   // Close the receive port
-  // Close the receive port
   receivePort.close();
 }
