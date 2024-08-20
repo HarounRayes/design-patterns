@@ -25,5 +25,8 @@ Future<void> main() async {
   print('Result from isolate: $result');
  
   // Close the receive port
+  // Close the receive port
+  // Close the receive port
+  // Close the receive port
   receivePort.close();
 }
