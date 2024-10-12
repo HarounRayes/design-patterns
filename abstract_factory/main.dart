@@ -9,5 +9,4 @@ void main(){
 
   f.method();
   f.method();
-  f.method();
 }
