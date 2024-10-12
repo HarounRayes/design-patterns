@@ -8,4 +8,6 @@ void main(){
   Framework f = factory.getFramework();
 
   f.method();
+  f.method();
+  f.method();
 }
